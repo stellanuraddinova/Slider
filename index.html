@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Slider</title>
+</head>
+<body>
+    <div class="size-[500px] border rounded-lg m-auto p-[22px] mt-[50px]">
+        <figure  class="slider-container w-[457px] h-[387px] rounded-lg overflow-hidden relative">
+            <img id="photo" class="w-full h-full object-cover slider-image absolute" src="" alt="">
+            
+            <div class="absolute inset-0 z-20 top-1/2 flex justify-between mx-[10px]"> 
+                <button id="btnPrev" class="h-[40px] bg-[#414141] rounded-lg px-[8px]">
+                    <img src="./assets/img/Vector-left.svg" alt="">
+                </button>
+                <button id="btnNext" class="h-[40px] bg-[#414141] rounded-lg px-[8px]">
+                    <img src="./assets/img/Vector-right.svg" alt="">
+                </button>
+            </div>
+        </figure>
+            <h1 id="title" class="text-[16px] font-bold text-[#141414] mt-[20px] mb-[10px]"></h1>
+            <p id="date" class="text-[14px] font-bold text-[#666666]"></p>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
