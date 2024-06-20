@@ -28,7 +28,7 @@ function start(){
   const item = items[index]
   photo.src = `/assets/img/${item.photo}`;
   title.textContent = item.title;
-  date.textConntent = item.date;
+  date.textContent = item.date;
 }
 
 function prev (){
